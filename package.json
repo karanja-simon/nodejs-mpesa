@@ -1,0 +1,43 @@
+{
+  "name": "sms-otp",
+  "version": "1.0.0",
+  "description": "Faini Mpesa API.",
+  "main": "dist/server.js",
+  "scripts": {
+    "build-ts": "tsc",
+    "start": "npm run serve",
+    "serve": "node dist/server.js",
+    "watch-node": "nodemon dist/server.js",
+    "watch-ts": "tsc -w"
+  },
+  "keywords": [
+    "api",
+    "sms",
+    "mpesa"
+  ],
+  "author": "Simon.K",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/dotenv": "^6.1.0",
+    "@types/joi": "^14.3.2",
+    "@types/moment": "^2.13.0",
+    "@types/morgan": "^1.7.35",
+    "@types/node": "^10.12.18",
+    "@types/request": "^2.48.1",
+    "awesome-phonenumber": "^2.3.3",
+    "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
+    "joi": "^14.3.1",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "request": "^2.88.0"
+  }
+}
