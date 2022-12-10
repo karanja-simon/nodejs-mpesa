@@ -18,7 +18,7 @@
   "author": "Simon.K",
   "license": "ISC",
   "devDependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "nodemon": "^1.18.9",
     "tslint": "^5.12.1",
     "typescript": "^3.2.4"
